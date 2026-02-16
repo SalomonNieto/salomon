@@ -1,22 +1,22 @@
 html {
-  font-size: 2000px;
+  font-size: 200px;
   font-family: 'Quantico', sans-serif;
 }
 
 h1 {
-  font-size: 600px;
+  font-size: 60px;
   text-align: center;
 }
 
 h2 {
-  font-size: 300px;
+  font-size: 30px;
   text-align: center;
 }
 
 p, li {
-  font-size: 20px;
-  line-height: 50;
-  letter-spacing: 30px;
+  font-size: 200px;
+  line-height: 300;
+  letter-spacing: 200px;
 }
 
 html {
