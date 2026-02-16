@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://notes.commonscomputer.com/tm1:githubpages -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" sizes="180x180" href="https://notes.commonscomputer.com/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://notes.commonscomputer.com/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://notes.commonscomputer.com/icons/favicon-16x16.png">
+<link rel="manifest" href="https://notes.commonscomputer.com/icons/site.webmanifest">
+<link rel="mask-icon" href="https://notes.commonscomputer.com/icons/safari-pinned-tab.svg" color="#b51f08">
+<link rel="shortcut icon" href="https://notes.commonscomputer.com/icons/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="HedgeDoc - Ideas grow better together">
+<meta name="application-name" content="HedgeDoc - Ideas grow better together">
+<meta name="msapplication-TileColor" content="#b51f08">
+<meta name="msapplication-config" content="https://notes.commonscomputer.com/icons/browserconfig.xml">
+<meta name="theme-color" content="#b51f08">
+
+
+
+<meta property="og:title" content="Publicar una página web en github - HedgeDoc">
+
+
+
+<meta property="og:type" content="website">
+
+<meta property="og:image" content="https://notes.commonscomputer.com/icons/android-chrome-512x512.png">
+<meta property="og:image:alt" content="HedgeDoc logo">
+<meta property="og:image:type" content="image/png">
+
+<!--<base href="https://notes.commonscomputer.com/">--><base href=".">
+<title>Publicar una página web en github - HedgeDoc</title>
+<link rel="stylesheet" href="./Publicar una página web en github - HedgeDoc_files/emojify.min.css">
+<link href="./Publicar una página web en github - HedgeDoc_files/font-pack.4362583c9249021b5028.css" rel="stylesheet"><link href="./Publicar una página web en github - HedgeDoc_files/2.15c517ea2148f55c8206.css" rel="stylesheet"><link href="./Publicar una página web en github - HedgeDoc_files/3.ec6e7d6280fcd73e729d.css" rel="stylesheet"><link href="./Publicar una página web en github - HedgeDoc_files/index-styles-pack.45942d0769cb8cebdc6a.css" rel="stylesheet"><link href="./Publicar una página web en github - HedgeDoc_files/23.24e78f72a38375cecde0.css" rel="stylesheet"><link href="./Publicar una página web en github - HedgeDoc_files/index-styles.69f33f427763810ebdcf.css" rel="stylesheet"><link href="./Publicar una página web en github - HedgeDoc_files/1.1666d9d869a0532d9bce.css" rel="stylesheet"><link href="./Publicar una página web en github - HedgeDoc_files/index.fb02d51cc8e0f080dbda.css" rel="stylesheet">
+
+<style type="text/css">.MathJax_Preview {color: #888; display: contents}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style></style><style></style></head>
+
+<body translate="no" style="background-color: white; padding-top: 50.8px;"><div id="MathJax_Message" style="display: none;"></div>
+    <nav class="navbar navbar-default navbar-fixed-top unselectable hidden-print navbar-show">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <div class="pull-right" style="margin-top: 17px; color: #777;">
+            <div class="visible-xs">&nbsp;</div>
+            <div class="visible-sm">&nbsp;</div>
+            <div class="visible-md">&nbsp;</div>
+            <div class="visible-lg">&nbsp;</div>
+        </div>
+        <div class="nav-mobile nav-status visible-xs" id="short-online-user-list">
+            <a class="ui-short-status" data-toggle="dropdown"><span class="label label-primary"><i class="fa fa-users"></i> 11</span></a>
+            <ul class="dropdown-menu list" role="menu" aria-labelledby="menu"><li class="ui-user-item"><span class="id" style="display:none;">sCAAkspWi2BWBvJRABE8</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-color: rgba(155, 82, 170, 0.18);"></i></span><span class="ui-user-name name">Guest Ishii</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item" style="border-left: 4px solid rgb(153, 206, 247);"><span class="id" style="display:none;">MLQsGZvLmYBh9Q_UABEV</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-image: url(&quot;https://cdn.libravatar.org/avatar/c22512b3d440d756ebddc81e99c5e63e?default=identicon&amp;s=96&quot;); margin-right: 6px; margin-left: -4px;"></i></span><span class="ui-user-name name">m.puinl</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item" style="border-left: 4px solid slateblue;"><span class="id" style="display:none;">sGmFVu0Aeiv0h1jEABEy</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-image: url(&quot;https://cdn.libravatar.org/avatar/af1667ed1d222238925f5d74d22ded02?default=identicon&amp;s=96&quot;); margin-right: 6px; margin-left: -4px;"></i></span><span class="ui-user-name name">ruidajo</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item" style="border-left: 4px solid rgb(255, 204, 238);"><span class="id" style="display:none;">HcYrBnvcXZOqse4fABE2</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-image: url(&quot;https://cdn.libravatar.org/avatar/7f3774c89a012dca92dac8bf73d1da8e?default=identicon&amp;s=96&quot;); margin-right: 6px; margin-left: -4px;"></i></span><span class="ui-user-name name">salazarnico20</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">EdQcNiGgMkKhTs9hABD_</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-color: rgb(18, 49, 25);"></i></span><span class="ui-user-name name">Guest Black</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">7p__StfFYDTjKEicABEq</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-color: rgb(120, 197, 153);"></i></span><span class="ui-user-name name">Guest Burroni</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">apCVgDJPhm3InERyABD7</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-color: rgb(221, 255, 34);"></i></span><span class="ui-user-name name">Guest Menendez</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">Qg07RAmXVhDFCFxPABE4</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon"></i></span><span class="ui-user-name name">Guest Niccolai</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">u83I6qT2Lk0I-2OHABE-</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon"></i></span><span class="ui-user-name name">Guest Pardo</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">r8f_zbth0rwJ6GyqABEw</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-color: rgb(162, 78, 151);"></i></span><span class="ui-user-name name">Guest Cook</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-idle"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">fBBg1zbLi_MuC9EfABE0</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon"></i></span><span class="ui-user-name name">Guest Matthews</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-idle"></i></span></a></li></ul>
+        </div>
+        <a class="navbar-brand pull-left header-brand" href="https://notes.commonscomputer.com/" title="HedgeDoc">
+            <img src="./Publicar una página web en github - HedgeDoc_files/banner_h_bw.svg" alt="HedgeDoc" class="h-100 no-night">
+            <img src="./Publicar una página web en github - HedgeDoc_files/banner_h_wb.svg" alt="HedgeDoc" class="h-100 night">
+        </a>
+        <div class="nav-mobile pull-right visible-xs">
+            <a data-toggle="dropdown" class="btn btn-link">
+                <i class="fa fa-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu list" role="menu" aria-labelledby="menu">
+                
+                <li role="presentation"><a role="menuitem" class="ui-new" tabindex="-1" href="https://notes.commonscomputer.com/new" target="_blank" rel="noopener"><i class="fa fa-plus fa-fw"></i> Nuevo</a>
+                </li>
+                
+                <li role="presentation"><a role="menuitem" class="ui-publish" tabindex="-1" href="https://notes.commonscomputer.com/tm1:githubpages/publish" target="_blank" rel="noopener"><i class="fa fa-share-square-o fa-fw"></i> Publicar</a>
+                </li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Extra</li>
+                <li role="presentation"><a role="menuitem" class="ui-extra-revision" tabindex="-1" data-toggle="modal" data-target="#revisionModal"><i class="fa fa-history fa-fw"></i> Revisión</a>
+                </li>
+                <li role="presentation"><a role="menuitem" class="ui-extra-slide" tabindex="-1" href="https://notes.commonscomputer.com/tm1:githubpages/slide" target="_blank" rel="noopener"><i class="fa fa-tv fa-fw"></i> Modo presentación</a>
+                </li>
+                
+                <li class="divider"></li>
+                <li class="dropdown-header">Importar</li>
+                <li role="presentation"><a role="menuitem" class="ui-import-dropbox" tabindex="-1" href="https://notes.commonscomputer.com/#" target="_self" style="display: none;"><i class="fa fa-dropbox fa-fw"></i> Dropbox</a>
+                </li>
+                <li role="presentation"><a role="menuitem" class="ui-import-gist" href="https://notes.commonscomputer.com/#" data-toggle="modal" data-target="#gistImportModal"><i class="fa fa-github fa-fw"></i> Gist</a>
+                </li>
+                
+                <li role="presentation"><a role="menuitem" class="ui-import-clipboard" href="https://notes.commonscomputer.com/#" data-toggle="modal" data-target="#clipboardModal"><i class="fa fa-clipboard fa-fw"></i> Portapapeles</a>
+                </li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Descargar</li>
+                <li role="presentation"><a role="menuitem" class="ui-download-markdown" tabindex="-1" href="https://notes.commonscomputer.com/#" target="_self"><i class="fa fa-file-text fa-fw"></i> Markdown</a>
+                </li>
+                <li role="presentation"><a role="menuitem" class="ui-download-html" tabindex="-1" href="https://notes.commonscomputer.com/#" target="_self"><i class="fa fa-file-code-o fa-fw"></i> HTML</a>
+                </li>
+                <li role="presentation"><a role="menuitem" class="ui-download-raw-html" tabindex="-1" href="https://notes.commonscomputer.com/#" target="_self"><i class="fa fa-file-code-o fa-fw"></i> HTML puro</a>
+                </li>
+                <li class="divider"></li>
+                <li role="presentation"><a role="menuitem" class="ui-help" href="https://notes.commonscomputer.com/#" data-toggle="modal" data-target=".help-modal"><i class="fa fa-question-circle fa-fw"></i> Help</a>
+                </li>
+            </ul>
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn ui-night" title="Modo nocturno">
+                    <input type="checkbox" name="night"><i class="fa fa-moon-o"></i>
+                </label>
+            </div>
+            <a class="btn btn-link ui-mode">
+                <i class="fa fa-pencil"></i>
+            </a>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-form navbar-left" style="padding:0;">
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default ui-view active" for="view-mode-toggle-view" title="Ver (Ctrl+Alt+V)" aria-label="Ver (Ctrl+Alt+V)">
+                    <input type="radio" name="mode" id="view-mode-toggle-view" autocomplete="off"><i class="fa fa-eye"></i>
+                </label>
+                <label class="btn btn-default ui-both" for="view-mode-toggle-both" title="Ambos (Ctrl+Alt+B)" aria-label="Ambos (Ctrl+Alt+B)">
+                    <input type="radio" name="mode" id="view-mode-toggle-both" autocomplete="off"><i class="fa fa-columns"></i>
+                </label>
+                <label class="btn btn-default ui-edit" for="view-mode-toggle-edit" title="Editar (Ctrl+Alt+E)" aria-label="Editar (Ctrl+Alt+E)">
+                    <input type="radio" name="mode" id="view-mode-toggle-edit" autocomplete="off"><i class="fa fa-pencil"></i>
+                </label>
+            </div>
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn ui-night" title="Modo nocturno">
+                    <input type="checkbox" name="night"><i class="fa fa-moon-o"></i>
+                </label>
+            </div>
+            <span class="btn btn-link btn-file ui-help" title="Ayuda" data-toggle="modal" data-target=".help-modal">
+                <i class="fa fa-question-circle"></i>
+            </span>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li id="online-user-list">
+                <a class="ui-status" data-toggle="dropdown"><span class="label label-primary"><i class="fa fa-users"></i> 11 ONLINE</span></a>
+                <ul class="dropdown-menu list" role="menu" aria-labelledby="menu" style="right: 15px;width: 200px;"><li class="ui-user-item"><span class="id" style="display:none;">sCAAkspWi2BWBvJRABE8</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-color: rgba(155, 82, 170, 0.18);"></i></span><span class="ui-user-name name">Guest Ishii</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item" style="border-left: 4px solid rgb(153, 206, 247);"><span class="id" style="display:none;">MLQsGZvLmYBh9Q_UABEV</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-image: url(&quot;https://cdn.libravatar.org/avatar/c22512b3d440d756ebddc81e99c5e63e?default=identicon&amp;s=96&quot;); margin-right: 6px; margin-left: -4px;"></i></span><span class="ui-user-name name">m.puinl</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item" style="border-left: 4px solid slateblue;"><span class="id" style="display:none;">sGmFVu0Aeiv0h1jEABEy</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-image: url(&quot;https://cdn.libravatar.org/avatar/af1667ed1d222238925f5d74d22ded02?default=identicon&amp;s=96&quot;); margin-right: 6px; margin-left: -4px;"></i></span><span class="ui-user-name name">ruidajo</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item" style="border-left: 4px solid rgb(255, 204, 238);"><span class="id" style="display:none;">HcYrBnvcXZOqse4fABE2</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-image: url(&quot;https://cdn.libravatar.org/avatar/7f3774c89a012dca92dac8bf73d1da8e?default=identicon&amp;s=96&quot;); margin-right: 6px; margin-left: -4px;"></i></span><span class="ui-user-name name">salazarnico20</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">EdQcNiGgMkKhTs9hABD_</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-color: rgb(18, 49, 25);"></i></span><span class="ui-user-name name">Guest Black</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">7p__StfFYDTjKEicABEq</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-color: rgb(120, 197, 153);"></i></span><span class="ui-user-name name">Guest Burroni</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">apCVgDJPhm3InERyABD7</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-color: rgb(221, 255, 34);"></i></span><span class="ui-user-name name">Guest Menendez</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">Qg07RAmXVhDFCFxPABE4</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon"></i></span><span class="ui-user-name name">Guest Niccolai</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">u83I6qT2Lk0I-2OHABE-</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon"></i></span><span class="ui-user-name name">Guest Pardo</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-online"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">r8f_zbth0rwJ6GyqABEw</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon" style="background-color: rgb(162, 78, 151);"></i></span><span class="ui-user-name name">Guest Cook</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-idle"></i></span></a></li><li class="ui-user-item"><span class="id" style="display:none;">fBBg1zbLi_MuC9EfABE0</span><a href="https://notes.commonscomputer.com/#"><span class="pull-left"><i class="ui-user-icon"></i></span><span class="ui-user-name name">Guest Matthews</span><span class="pull-right"><i class="fa fa-circle ui-user-status ui-user-status-idle"></i></span></a></li></ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" style="padding:0;">
+            
+            <li>
+                <a href="https://notes.commonscomputer.com/new" target="_blank" rel="noopener" class="ui-new">
+                    <i class="fa fa-plus"></i> Nuevo
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://notes.commonscomputer.com/tm1:githubpages/publish" target="_blank" rel="noopener" class="ui-publish">
+                    <i class="fa fa-share-square-o"></i> Publicar
+                </a>
+            </li>
+            <li>
+                <a data-toggle="dropdown">
+                    Menú <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu list" role="menu" aria-labelledby="menu">
+                    <li class="dropdown-header">Extra</li>
+                    <li role="presentation"><a role="menuitem" class="ui-extra-revision" tabindex="-1" data-toggle="modal" data-target="#revisionModal"><i class="fa fa-history fa-fw"></i> Revisión</a>
+                    </li>
+                    <li role="presentation"><a role="menuitem" class="ui-extra-slide" tabindex="-1" href="https://notes.commonscomputer.com/tm1:githubpages/slide" target="_blank" rel="noopener"><i class="fa fa-tv fa-fw"></i> Modo presentación</a>
+                    </li>
+                    
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Importar</li>
+                    <li role="presentation"><a role="menuitem" class="ui-import-dropbox" tabindex="-1" href="https://notes.commonscomputer.com/#" target="_self" style="display: none;"><i class="fa fa-dropbox fa-fw"></i> Dropbox</a>
+                    </li>
+                    <li role="presentation"><a role="menuitem" class="ui-import-gist" href="https://notes.commonscomputer.com/#" data-toggle="modal" data-target="#gistImportModal"><i class="fa fa-github fa-fw"></i> Gist</a>
+                    </li>
+                    
+                    <li role="presentation"><a role="menuitem" class="ui-import-clipboard" href="https://notes.commonscomputer.com/#" data-toggle="modal" data-target="#clipboardModal"><i class="fa fa-clipboard fa-fw"></i> Portapapeles</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Descargar</li>
+                    <li role="presentation"><a role="menuitem" class="ui-download-markdown" tabindex="-1" href="https://notes.commonscomputer.com/#" target="_self"><i class="fa fa-file-text fa-fw"></i> Markdown</a>
+                    </li>
+                    <li role="presentation"><a role="menuitem" class="ui-download-html" tabindex="-1" href="https://notes.commonscomputer.com/#" target="_self"><i class="fa fa-file-code-o fa-fw"></i> HTML</a>
+                    </li>
+                    <li role="presentation"><a role="menuitem" class="ui-download-raw-html" tabindex="-1" href="https://notes.commonscomputer.com/#" target="_self"><i class="fa fa-file-code-o fa-fw"></i> HTML puro</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="ui-spinner unselectable hidden-print" style="display: none;"><div class="spinner" role="progressbar" style="position: absolute; width: 0px; z-index: 2000000000; left: 50%; top: 50%; transform: scale(1);"><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(0deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.909091s infinite normal none running spinner-line-fade-default;"></div></div><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(32deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.826446s infinite normal none running spinner-line-fade-default;"></div></div><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(65deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.743802s infinite normal none running spinner-line-fade-default;"></div></div><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(98deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.661157s infinite normal none running spinner-line-fade-default;"></div></div><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(130deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.578512s infinite normal none running spinner-line-fade-default;"></div></div><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(163deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.495868s infinite normal none running spinner-line-fade-default;"></div></div><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(196deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.413223s infinite normal none running spinner-line-fade-default;"></div></div><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(229deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.330579s infinite normal none running spinner-line-fade-default;"></div></div><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(261deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.247934s infinite normal none running spinner-line-fade-default;"></div></div><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(294deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.165289s infinite normal none running spinner-line-fade-default;"></div></div><div style="position: absolute; top: -1px; width: 22px; height: 2px; background: transparent; border-radius: 0px; transform-origin: left center; transform: rotate(327deg) translateX(30px);"><div style="width: 100%; height: 100%; background: rgb(0, 0, 0); border-radius: 0px; animation: 0.909091s linear -0.0826446s infinite normal none running spinner-line-fade-default;"></div></div></div></div>
+
+    <div class="row ui-content" style="">
+    <div class="ui-edit-area unselectable ui-resizable" style="display: none;">
+        <textarea id="textit" style="display: none;"></textarea><div class="CodeMirror cm-s-one-dark CodeMirror-wrap CodeMirror-overlayscroll" translate="no" style="clip-path: inset(0px); height: 820px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 65px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; min-height: 1em; outline: none;"></textarea></div><div class="CodeMirror-overlayscroll-horizontal" cm-not-content="true" style="display: none;"><div></div></div><div class="CodeMirror-overlayscroll-vertical" cm-not-content="true" style="display: block; bottom: 0px;"><div style="height: 10px; top: -0.0219298px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" style="height: 820px;"><div class="CodeMirror-sizer" style="margin-left: 0px; padding-right: 10px; padding-bottom: 0px; margin-bottom: -15px; border-right-width: 35px; min-height: 2224px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div class="CodeMirror-other-cursors"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 22.5px;">&nbsp;</div></div><div class="cursor-menu"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: -61px; width: 61px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown cm-hr">---</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown">breaks: false</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown cm-hr">---</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">6</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown cm-header cm-header-1"># Publicar una página web en github</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">7</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">8</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown">Más información en </span><span class="cm-m-markdown cm-link">https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">9</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">10</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown cm-header cm-header-2">## Crear una cuenta en github</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">11</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">12</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown">Ir a </span><span class="cm-m-markdown cm-link">https://github.com/signup</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">13</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown">y llenar el formulario para crear una cuenta.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">14</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">15</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown">Es necesario registrarse con un corre electronico.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">16</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">17</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown cm-image cm-image-marker">!</span><span class="cm-m-markdown cm-image cm-image-alt-text cm-link">[]</span><span class="cm-m-markdown cm-string cm-url">(https://notes.commonscomputer.com/uploads/1da31735-3f80-4754-974a-722ee1c39593.png)</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">18</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">19</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown cm-header cm-header-2">## Crear un nuevo repositorio</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">20</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -61px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 32px;">21</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-m-markdown">En la página principal,</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 35px; width: 1px; border-bottom: 0px solid transparent; top: 2224px;"></div><div class="CodeMirror-gutters" style="left: 0px; height: 2259px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 40px;"></div><div class="CodeMirror-gutter authorship-gutters"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div>
+    <div class="ui-resizable-handle ui-resizable-e" style="z-index: 90; display: none;"><button class="btn btn-lg btn-default ui-sync-toggle" title="Toggle sync scrolling" style="display: none;"><i class="fa fa-link fa-fw"></i></button></div></div>
+    <div class="ui-view-area">
+        <div class="ui-infobar container-fluid unselectable hidden-print">
+            <small>
+                <span>
+                    <span class="ui-lastchangeuser" style=""> <i class="ui-user-icon small" data-toggle="tooltip" data-placement="right" data-original-title="ruidajo" title="" style="background-image:url(https://cdn.libravatar.org/avatar/af1667ed1d222238925f5d74d22ded02?default=identicon&amp;s=96)"></i></span>
+                    <span class="ui-no-lastchangeuser" style="display: none;"> <i class="fa fa-clock-o fa-fw" style="width: 18px;"></i></span>&nbsp;
+                    <span class="text-uppercase ui-status-lastchange changed" style="">modificado</span>
+                    <span class="text-uppercase ui-status-lastchange created" style="display: none;">creado</span>
+                    <span class="ui-lastchange text-uppercase" title="lun., 9 de feb. de 2026 20:42">hace 7 días</span>
+                </span>
+                <span class="ui-permission dropdown pull-right">
+                    <a id="permissionLabel" class="ui-permission-label text-uppercase disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Only owner can edit"><i class="fa fa-lock"></i> Locked</a>
+                    <ul class="dropdown-menu" aria-labelledby="permissionLabel">
+                        <li class="ui-permission-freely"><a><i class="fa fa-leaf fa-fw"></i> Libre - Cualquiera puede editar</a></li>
+                        <li class="ui-permission-editable"><a><i class="fa fa-shield fa-fw"></i> Editable - Personas registradas pueden editar</a></li>
+                        <li class="ui-permission-limited"><a><i class="fa fa-id-card fa-fw"></i> Limitado - Personas registradas pueden editar (prohíbe visitantes)</a></li>
+                        <li class="ui-permission-locked"><a><i class="fa fa-lock fa-fw"></i> Bloqueado - Solo quien es titular puede editar</a></li>
+                        <li class="ui-permission-protected"><a><i class="fa fa-umbrella fa-fw"></i> Protegido - Solo quien es titular puede editar (prohíbe visitantes)</a></li>
+                        <li class="ui-permission-private"><a><i class="fa fa-hand-stop-o fa-fw"></i> Privado - Solo quien es titular puede editar y visualizar</a></li>
+                        <li class="divider"></li>
+                        <li class="ui-delete-note"><a><i class="fa fa-trash-o fa-fw"></i> Delete this note</a></li>
+                    </ul>
+                </span>
+                <br>
+                <span class="ui-owner" style="display: none;">
+                     <i class="ui-user-icon small" data-toggle="tooltip" data-placement="right" data-original-title="ruidajo" title="" style="background-image:url(https://cdn.libravatar.org/avatar/af1667ed1d222238925f5d74d22ded02?default=identicon&amp;s=96)"></i>
+                    &nbsp;<span class="text-uppercase">owned this note</span>
+                </span>
+            </small>
+        </div>
+        <div id="doc" class="markdown-body container-fluid"><h1 class="part" data-startline="6" data-endline="6" id="Publicar-una-página-web-en-github"><a aria-hidden="true" class="anchor hidden-xs" href="https://notes.commonscomputer.com/tm1:githubpages#Publicar-una-p%C3%A1gina-web-en-github" title="Publicar-una-página-web-en-github"><i class="fa fa-link"></i></a>Publicar una página web en github</h1><p class="part" data-startline="8" data-endline="8">Más información en <a href="https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site" target="_blank" rel="noopener">https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site</a></p><h2 class="part" data-startline="10" data-endline="10" id="Crear-una-cuenta-en-github"><a aria-hidden="true" class="anchor hidden-xs" href="https://notes.commonscomputer.com/tm1:githubpages#Crear-una-cuenta-en-github" title="Crear-una-cuenta-en-github"><i class="fa fa-link"></i></a>Crear una cuenta en github</h2><p class="part" data-startline="12" data-endline="13">Ir a <a href="https://github.com/signup" target="_blank" rel="noopener">https://github.com/signup</a>
+y llenar el formulario para crear una cuenta.</p><p class="part" data-startline="15" data-endline="15">Es necesario registrarse con un corre electronico.</p><p class="part" data-startline="17" data-endline="17"><img src="./Publicar una página web en github - HedgeDoc_files/1da31735-3f80-4754-974a-722ee1c39593.png" alt="" class=""></p><h2 class="part" data-startline="19" data-endline="19" id="Crear-un-nuevo-repositorio"><a aria-hidden="true" class="anchor hidden-xs" href="https://notes.commonscomputer.com/tm1:githubpages#Crear-un-nuevo-repositorio" title="Crear-un-nuevo-repositorio"><i class="fa fa-link"></i></a>Crear un nuevo repositorio</h2><p class="part" data-startline="21" data-endline="23">En la página principal,
+autenticadas con su cuenta,
+busquen el ícono <code>+</code> en el costado superior derecho.</p><p class="part" data-startline="25" data-endline="25">Señalado con el recuadro rojo en la siguiente captura</p><p class="part" data-startline="27" data-endline="27"><img src="./Publicar una página web en github - HedgeDoc_files/3ed54cb5-6605-471c-b4a3-7b83ef647f67.png" alt="" class=""></p><p class="part" data-startline="29" data-endline="29">En el menú desplegado, seleccionar <code>New repository</code></p><p class="part" data-startline="31" data-endline="31"><img src="./Publicar una página web en github - HedgeDoc_files/7b252c5c-2b4e-4405-b2e5-d5efebf94729.png" alt="" class=""></p><p class="part" data-startline="33" data-endline="34">En el formulario para crear el repositorio
+escribimos el nombre, en mi caso <code>tm1</code></p><p class="part" data-startline="36" data-endline="36"><img src="./Publicar una página web en github - HedgeDoc_files/d771537c-9c27-4a11-a666-e965789a51ef.png" alt="" class=""></p><p class="part" data-startline="38" data-endline="38">Dejamos el resto de campos por defecto y presionamos <code>Create repository</code></p><h2 class="part" data-startline="40" data-endline="40" id="Subir-indexhtml-al-repositorio"><a aria-hidden="true" class="anchor hidden-xs" href="https://notes.commonscomputer.com/tm1:githubpages#Subir-indexhtml-al-repositorio" title="Subir-indexhtml-al-repositorio"><i class="fa fa-link"></i></a>Subir index.html al repositorio</h2><p class="part" data-startline="42" data-endline="43">En el repositorio creado presionamos el enlace <code>uploading an existing file</code>
+en la sección inferior de <code>Quick setup</code></p><p class="part" data-startline="45" data-endline="45"><img src="./Publicar una página web en github - HedgeDoc_files/2390a39a-9135-4b5a-8767-ef5887bc5605.png" alt="" class=""></p><p class="part" data-startline="47" data-endline="48">Agregamos al repositorio el archivo <code>index.html</code>
+que encuentran en el siguiente enlace</p><ul class="part" data-startline="50" data-endline="51">
+<li class="" data-startline="50" data-endline="51"><a href="https://ia600104.us.archive.org/3/items/html-web-start/index.html" target="_blank" rel="noopener">https://ia600104.us.archive.org/3/items/html-web-start/index.html</a></li>
+</ul><p class="part" data-startline="52" data-endline="55">se abrirá la siguiente página, para guardarla en un archivo
+usen la combinación de teclas <code>Ctrl + s</code>
+y guarden el archivo <code>index.html</code>
+o click derecho y <code>Save as...</code> o <code>Guardar como...</code></p><p class="part" data-startline="57" data-endline="57"><img src="./Publicar una página web en github - HedgeDoc_files/ad8fd6e0-4f1f-467b-87bd-035ec1a670ad.png" alt="" class=""></p><p class="part" data-startline="59" data-endline="60">En el panel de github arrastran el <code>index.html</code> que descargaron
+o seleccionan <code>choose your files</code> y seleccionan el archivo mencionado.</p><p class="part" data-startline="62" data-endline="62"><img src="./Publicar una página web en github - HedgeDoc_files/c782bc70-53c8-418f-9e6a-d37741237bd8.png" alt="" class=""></p><p class="part" data-startline="64" data-endline="64"><img src="./Publicar una página web en github - HedgeDoc_files/27ac7699-ec7e-430d-86a5-89a2eb49fd9a.png" alt="" class=""></p><ol class="part" data-startline="66" data-endline="69">
+<li class="" data-startline="66" data-endline="66">Deben ver el archivo <code>index.html</code> en la parte media de la interfaz.</li>
+<li class="" data-startline="67" data-endline="67">Escriban un comentario al cambio que describa lo que estan haciendo.</li>
+<li class="" data-startline="68" data-endline="69">Pulsen el botón <code>Commit changes</code>.</li>
+</ol><p class="part" data-startline="70" data-endline="70">Deben tener algo similar a la siguiente captura</p><p class="part" data-startline="72" data-endline="72"><img src="./Publicar una página web en github - HedgeDoc_files/8d2d4bf9-7838-4629-8835-d5dfbd0909b4.png" alt="" class=""></p><p class="part" data-startline="74" data-endline="74">Ahora vamos a crear la carpeta <code>images</code> y <code>styles</code>.</p><h2 class="part" data-startline="76" data-endline="76" id="Crear-archivos-y-directorios-desde-la-interfaz-web"><a aria-hidden="true" class="anchor hidden-xs" href="https://notes.commonscomputer.com/tm1:githubpages#Crear-archivos-y-directorios-desde-la-interfaz-web" title="Crear-archivos-y-directorios-desde-la-interfaz-web"><i class="fa fa-link"></i></a>Crear archivos y directorios desde la interfaz web</h2><p class="part" data-startline="78" data-endline="79">En la interfaz del repositorio ubicamos y pulsamos en el botón
+<code>Add file</code>, en el menú desplegado pulsamos <code>Create new file</code></p><p class="part" data-startline="81" data-endline="81"><img src="./Publicar una página web en github - HedgeDoc_files/99ede813-39db-4860-9fb4-447baa6b4649.png" alt="" class=""></p><p class="part" data-startline="83" data-endline="84">Para poder crear un directorio o folder
+debemos crear un archivo interno.</p><p class="part" data-startline="86" data-endline="86"><img src="./Publicar una página web en github - HedgeDoc_files/8f9f69c1-8fc2-4d18-9480-7e7a258cb28e.png" alt="" class=""></p><p class="part" data-startline="88" data-endline="88"><img src="./Publicar una página web en github - HedgeDoc_files/296a56a3-7036-4ee9-811b-424da4d21e42.png" alt="" class=""></p><ol class="part" data-startline="90" data-endline="92">
+<li class="" data-startline="90" data-endline="90">En la parte superior izquierda, en el campo de escritura escribimos <code>images/empty</code> lo que al final de escribir se vera como en la imagen.</li>
+<li class="" data-startline="91" data-endline="92">Pulsamos el botón <code>Commit changes...</code>.</li>
+</ol><p class="part" data-startline="93" data-endline="93">En la ventana desplegada escribimos un mensaje que describa el cambio y pulsamos <code>Commit changes</code>.</p><p class="part" data-startline="95" data-endline="95"><img src="./Publicar una página web en github - HedgeDoc_files/83fe5cc9-feb0-4aef-afdf-ae82984b9ac6.png" alt="" class=""></p><p class="part" data-startline="97" data-endline="98">Obtenemos la carpeta <code>images</code> con el archivo vacio <code>empty</code>,
+en esa carpeta subiremos la siguiente imagen.</p><ul class="part" data-startline="100" data-endline="101">
+<li class="" data-startline="100" data-endline="101"><a href="https://ia800104.us.archive.org/3/items/html-web-start/gato-glitch.png" target="_blank" rel="noopener">https://ia800104.us.archive.org/3/items/html-web-start/gato-glitch.png</a></li>
+</ul><p class="part" data-startline="102" data-endline="103">Pulsamos el botón <code>Add file</code> en el costado derecho de la interfaz,
+y realizamos el mismo proceso que hicimos al subir <code>index.html</code>.</p><p class="part" data-startline="105" data-endline="105"><img src="./Publicar una página web en github - HedgeDoc_files/1405a5b4-ad41-4eed-a924-d877f11518d2.png" alt="" class=""></p><p class="part" data-startline="107" data-endline="107"><img src="./Publicar una página web en github - HedgeDoc_files/d69704b8-c653-4283-8f5c-a48f425fc44b.png" alt="" class=""></p><p class="part" data-startline="110" data-endline="110">Ahora vamos a crear el archivo <code>styles/style.css</code>.</p><p class="part" data-startline="112" data-endline="114">Nos ubicamos en la carpeta raíz del repositorio
+pulsando el enlace del nombre de nuestro repositorio
+en el costado izquierdo superior.</p><p class="part" data-startline="116" data-endline="116"><img src="./Publicar una página web en github - HedgeDoc_files/576ff366-a222-4270-b55b-81223277f853.png" alt="" class=""></p><p class="part" data-startline="118" data-endline="118">Pulsamos de nuevo <code>Create new file</code></p><p class="part" data-startline="120" data-endline="120"><img src="./Publicar una página web en github - HedgeDoc_files/17a0aa77-ee4e-4843-ad7e-d1e96c1e1515.png" alt="" class=""></p><p class="part" data-startline="122" data-endline="123">En el campo del costado superior izquierdo escribimos <code>styles/style.css</code>
+y obtendremos la siguiente pantalla.</p><p class="part" data-startline="125" data-endline="125"><img src="./Publicar una página web en github - HedgeDoc_files/f841c86a-dd5c-437d-99d8-1198c351f697.png" alt="" class=""></p><p class="part" data-startline="127" data-endline="128">Del siguiente enlace, copiamos y pegamos el texto
+en nuestro repositorio.</p><ul class="part" data-startline="130" data-endline="131">
+<li class="" data-startline="130" data-endline="131"><a href="https://dn710203.ca.archive.org/0/items/html-web-start/style.css" target="_blank" rel="noopener">https://dn710203.ca.archive.org/0/items/html-web-start/style.css</a></li>
+</ul><p class="part" data-startline="132" data-endline="132">Como se ve en la siguiente imagen</p><p class="part" data-startline="134" data-endline="134"><img src="./Publicar una página web en github - HedgeDoc_files/3884a4a6-1e63-4072-9288-35134a0d83d0.png" alt="" class=""></p><p class="part" data-startline="136" data-endline="136"><img src="./Publicar una página web en github - HedgeDoc_files/99681a31-326a-4ceb-9bf3-6a7be9735517.png" alt="" class=""></p><p class="part" data-startline="138" data-endline="139">y pulsamos el botón <code>Commit changes...</code>, agregamos un comentario
+y pulsamos <code>Commit changes</code>.</p><p class="part" data-startline="141" data-endline="141"><img src="./Publicar una página web en github - HedgeDoc_files/6b1ecb18-209a-4c57-8c5a-a43e89e13f87.png" alt="" class=""></p><p class="part" data-startline="143" data-endline="143"><img src="./Publicar una página web en github - HedgeDoc_files/31a82e81-5be5-4feb-90e7-c5156c5d8840.png" alt="" class=""></p><h2 class="part" data-startline="145" data-endline="145" id="Crear-la-página-pública"><a aria-hidden="true" class="anchor hidden-xs" href="https://notes.commonscomputer.com/tm1:githubpages#Crear-la-p%C3%A1gina-p%C3%BAblica" title="Crear-la-página-pública"><i class="fa fa-link"></i></a>Crear la página pública</h2><p class="part" data-startline="147" data-endline="148">En el menú principal del repositorio,
+ubicamos el menú <code>settings</code> e ingresamos pulsando el botón.</p><p class="part" data-startline="150" data-endline="150"><img src="./Publicar una página web en github - HedgeDoc_files/9609c747-c823-4576-a204-64510875ae76.png" alt="" class=""></p><p class="part" data-startline="152" data-endline="153">En el costado izquierdo de la pantalla ubicamos y pulsamos en
+<code>Pages</code>.</p><p class="part" data-startline="155" data-endline="155"><img src="./Publicar una página web en github - HedgeDoc_files/ee89cdd6-e637-4680-90e4-3ab325fc9471.png" alt="" class=""></p><p class="part" data-startline="157" data-endline="158">En el centro de la pantalla, en la sección <code>Branch</code> o <code>Rama</code>
+debemos cambiar <code>None</code> por <code>main</code> y pulsamos el botón <code>save</code>.</p><p class="part" data-startline="160" data-endline="160"><img src="./Publicar una página web en github - HedgeDoc_files/46914559-cdef-4eae-bc9e-a58ea44c00a5.png" alt="" class=""></p><p class="part" data-startline="162" data-endline="162"><img src="./Publicar una página web en github - HedgeDoc_files/f6c9eb85-4e18-4c5b-8201-38570ef5716f.png" alt="" class=""></p><p class="part" data-startline="164" data-endline="164"><img src="./Publicar una página web en github - HedgeDoc_files/cfd01a83-6640-40a5-9c85-1a6a0b88992c.png" alt="" class=""></p><p class="part" data-startline="166" data-endline="167">Volvemos al menú principal pulsando el botón superior izquierdo
+con el nombre de nuestro repositorio</p><p class="part" data-startline="169" data-endline="169"><img src="./Publicar una página web en github - HedgeDoc_files/75bd11dc-0d7b-47b1-9eed-ca6927a50bb4.png" alt="" class=""></p><p class="part" data-startline="171" data-endline="172">Veremos un nuevo menú en el costado derecho inferior
+<code>Deployments</code>, pulsamos el enlace en ese apartado.</p><p class="part" data-startline="174" data-endline="174"><img src="./Publicar una página web en github - HedgeDoc_files/cb8c4e4c-49d6-4fbc-b1fb-321c9b2bb110.png" alt="" class=""></p><p class="part" data-startline="176" data-endline="176">En la página de <code>Deployments</code> obtenemos en enlace de nuestra página web pública.</p><p class="part" data-startline="178" data-endline="178"><img src="./Publicar una página web en github - HedgeDoc_files/e9cdc68a-f9f0-485f-96cf-15b1092d41a6.png" alt="" class=""></p><p class="part" data-startline="180" data-endline="180">Al pulsar ese enlace tendremos la página pública</p><p class="part" data-startline="182" data-endline="182"><img src="./Publicar una página web en github - HedgeDoc_files/effe0dfa-aed0-4aa5-9a76-9fecb44055e3.png" alt="" class=""></p><h2 class="part" data-startline="184" data-endline="184" id="Modificar-los-contenidos"><a aria-hidden="true" class="anchor hidden-xs" href="https://notes.commonscomputer.com/tm1:githubpages#Modificar-los-contenidos" title="Modificar-los-contenidos"><i class="fa fa-link"></i></a>Modificar los contenidos</h2><p class="part" data-startline="186" data-endline="187">Volvemos a la página principal del repositorio
+y seleccionamos el archivo <code>index.html</code></p><p class="part" data-startline="189" data-endline="189"><img src="./Publicar una página web en github - HedgeDoc_files/c37d6b11-67ba-4924-ba05-87d68da406e9.png" alt="" class=""></p><p class="part" data-startline="191" data-endline="192">Ubicamos y pulsamos el ícono de lapiz en el costado derecho
+<code>Edit this file</code></p><p class="part" data-startline="194" data-endline="194"><img src="./Publicar una página web en github - HedgeDoc_files/9068cb41-cacf-45a2-ab4a-db42af09d5fb.png" alt="" class=""></p><p class="part" data-startline="196" data-endline="198">Modificamos los textos del archivo, por ejemplo,
+el texto del titulo ubicado en la etiqueta <code>&lt;h1&gt;</code>
+en la linea 12 del archivo.</p><p class="part" data-startline="200" data-endline="203">Tambien cambiamos la imagen,
+copiamos y pegamos un enlace de una imagen de internet
+en el atributo <code>src="aqui el enlace"</code>
+ejemplo:</p><ul class="part" data-startline="205" data-endline="207">
+<li class="" data-startline="205" data-endline="205">cambian en la linea 13 <code>images/gato-glitch.png</code></li>
+<li class="" data-startline="206" data-endline="207">por <code>https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Restaurant_Amigos_de_Acapulco_%28window%29%2C_Chico.jpg/1920px-Restaurant_Amigos_de_Acapulco_%28window%29%2C_Chico.jpg</code></li>
+</ul><p class="part" data-startline="208" data-endline="208"><img src="./Publicar una página web en github - HedgeDoc_files/13fe3c43-6209-4e52-bf6e-2f47e1533e19.png" alt="" class=""></p><p class="part" data-startline="210" data-endline="210"><img src="./Publicar una página web en github - HedgeDoc_files/8d6d7c9d-6642-4555-b5c0-7a8a2619a369.png" alt="" class=""></p><p class="part" data-startline="212" data-endline="214">Luego se hace el commit como lo hemos visto en instrucciones pasadas
+pulsando <code>Commit changes...</code> escribimos un mensaje que describa el cambio
+y luego <code>Commit cahnges</code>.</p><p class="part" data-startline="216" data-endline="216">Obtenemos en el enlace de la página pública lo siguiente</p><p class="part" data-startline="218" data-endline="218"><img src="./Publicar una página web en github - HedgeDoc_files/677942cd-0ca4-40a6-a8e0-775b96ebd6de.png" alt="" class=""></p><h2 class="part" data-startline="220" data-endline="220" id="Instrucción-para-el-entregable"><a aria-hidden="true" class="anchor hidden-xs" href="https://notes.commonscomputer.com/tm1:githubpages#Instrucci%C3%B3n-para-el-entregable" title="Instrucción-para-el-entregable"><i class="fa fa-link"></i></a>Instrucción para el entregable</h2><p class="part" data-startline="222" data-endline="223">Hagan varios cambios, exploren modificando el archivo <code>style.css</code>
+en la carpeta de <code>styles</code>.</p><p class="part" data-startline="225" data-endline="225">Copien, peguen, reescriban secciones de <code>index.html</code>.</p><p class="part" data-startline="227" data-endline="227">El entregable debe ser el enlace de la página pública del repositorio.</p><p class="part" data-startline="229" data-endline="229">Por ejemplo: <a href="https://ruidajo.github.io/tm1/" target="_blank" rel="noopener">https://ruidajo.github.io/tm1/</a></p><p class="part" data-startline="231" data-endline="232">El repositorio debe tener por lo menos 10 commits
+que muestran los cambios que fueron creando.</p><p class="part" data-startline="234" data-endline="234"><img src="./Publicar una página web en github - HedgeDoc_files/81c210dc-0162-4ba8-b740-3be8885b212e.png" alt="" class=""></p></div>
+        <div class="ui-toc dropup unselectable hidden-print scrollspy-view" style="display: none; right: 156.6px;">
+            <div class="pull-right dropdown">
+                <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="https://notes.commonscomputer.com/#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel"><div class="toc"><ul class="nav">
+<li class="active"><a href="https://notes.commonscomputer.com/#Publicar-una-p%C3%A1gina-web-en-github" title="Publicar una página web en github" smoothhashscroll="">Publicar una página web en github</a><ul class="nav">
+<li><a href="https://notes.commonscomputer.com/#Crear-una-cuenta-en-github" title="Crear una cuenta en github" smoothhashscroll="">Crear una cuenta en github</a></li>
+<li><a href="https://notes.commonscomputer.com/#Crear-un-nuevo-repositorio" title="Crear un nuevo repositorio" smoothhashscroll="">Crear un nuevo repositorio</a></li>
+<li><a href="https://notes.commonscomputer.com/#Subir-indexhtml-al-repositorio" title="Subir index.html al repositorio" smoothhashscroll="">Subir index.html al repositorio</a></li>
+<li><a href="https://notes.commonscomputer.com/#Crear-archivos-y-directorios-desde-la-interfaz-web" title="Crear archivos y directorios desde la interfaz web" smoothhashscroll="">Crear archivos y directorios desde la interfaz web</a></li>
+<li><a href="https://notes.commonscomputer.com/#Crear-la-p%C3%A1gina-p%C3%BAblica" title="Crear la página pública" smoothhashscroll="">Crear la página pública</a></li>
+<li><a href="https://notes.commonscomputer.com/#Modificar-los-contenidos" title="Modificar los contenidos" smoothhashscroll="">Modificar los contenidos</a></li>
+<li><a href="https://notes.commonscomputer.com/#Instrucci%C3%B3n-para-el-entregable" title="Instrucción para el entregable" smoothhashscroll="">Instrucción para el entregable</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="https://notes.commonscomputer.com/#">Expand all</a><a class="back-to-top" href="https://notes.commonscomputer.com/#">Back to top</a><a class="go-to-bottom" href="https://notes.commonscomputer.com/#">Go to bottom</a></div></ul>
+            </div>
+        </div>
+        <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print scrollspy-body affix" data-spy="affix" style="top: 51px; left: 889.4px; width: 141.4px;"><div class="toc"><ul class="nav">
+<li class="active"><a href="https://notes.commonscomputer.com/#Publicar-una-p%C3%A1gina-web-en-github" title="Publicar una página web en github" smoothhashscroll="">Publicar una página web en github</a><ul class="nav">
+<li class=""><a href="https://notes.commonscomputer.com/#Crear-una-cuenta-en-github" title="Crear una cuenta en github" smoothhashscroll="">Crear una cuenta en github</a></li>
+<li class=""><a href="https://notes.commonscomputer.com/#Crear-un-nuevo-repositorio" title="Crear un nuevo repositorio" smoothhashscroll="">Crear un nuevo repositorio</a></li>
+<li class="active"><a href="https://notes.commonscomputer.com/#Subir-indexhtml-al-repositorio" title="Subir index.html al repositorio" smoothhashscroll="">Subir index.html al repositorio</a></li>
+<li class=""><a href="https://notes.commonscomputer.com/#Crear-archivos-y-directorios-desde-la-interfaz-web" title="Crear archivos y directorios desde la interfaz web" smoothhashscroll="">Crear archivos y directorios desde la interfaz web</a></li>
+<li class=""><a href="https://notes.commonscomputer.com/#Crear-la-p%C3%A1gina-p%C3%BAblica" title="Crear la página pública" smoothhashscroll="">Crear la página pública</a></li>
+<li class=""><a href="https://notes.commonscomputer.com/#Modificar-los-contenidos" title="Modificar los contenidos" smoothhashscroll="">Modificar los contenidos</a></li>
+<li><a href="https://notes.commonscomputer.com/#Instrucci%C3%B3n-para-el-entregable" title="Instrucción para el entregable" smoothhashscroll="">Instrucción para el entregable</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="https://notes.commonscomputer.com/#">Expand all</a><a class="back-to-top" href="https://notes.commonscomputer.com/#">Back to top</a><a class="go-to-bottom" href="https://notes.commonscomputer.com/#">Go to bottom</a></div></div>
+    </div>
+</div>
+<!-- clipboard modal -->
+<div class="modal fade" id="clipboardModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Importar del portapapeles</h4>
+            </div>
+            <div class="modal-body">
+                <div contenteditable="" data-ph="Pega tu markdown o página web aquí…" id="clipboardModalContent" style="overflow:auto;max-height:50vh"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger" id="clipboardModalClear">Limpiar</button>
+                <button type="button" class="btn btn-primary" id="clipboardModalConfirm">Importar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- locked modal -->
+<div class="modal fade locked-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel"><i class="fa fa-lock"></i> Esta nota está bloqueada</h4>
+            </div>
+            <div class="modal-body" style="color:black;">
+                <h5>Disculpa, solo quien es titular puede editar esta nota.</h5>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- limit modal -->
+<div class="modal fade limit-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel"><i class="fa fa-exclamation-triangle"></i> Haz alcanzado el límite</h4>
+            </div>
+            <div class="modal-body" style="color:black;">
+                <h5>Disculpa, haz alcanzado la longitud máxima que puede tener esta nota.</h5>
+                <strong>Por favor, reduce el contenido de esta nota.</strong>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- message modal -->
+<div class="modal fade message-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+            <div class="modal-body" style="color:black;">
+                <h5></h5>
+                <a target="_blank" rel="noopener" style="word-break: break-all;"></a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- gist import modal -->
+<div class="modal fade" id="gistImportModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Importar de un Gist</h4>
+            </div>
+            <div class="modal-body">
+                <input type="url" class="form-control" placeholder="Pega la URL de tu Gist aquí… (like: https://gist.github.com/username/gistid)" id="gistImportModalContent">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger" id="gistImportModalClear">Limpiar</button>
+                <button type="button" class="btn btn-primary" id="gistImportModalConfirm">Importar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- snippet import modal -->
+<div class="modal fade" id="snippetImportModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Importar de Snippet</h4>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="snippetImportModalAccessToken">
+                <input type="hidden" id="snippetImportModalBaseURL">
+                <input type="hidden" id="snippetImportModalVersion">
+                <div class="ui-field-contain" style="display:table;margin-bottom:10px;width:100%;">
+                    <div style="display:table-row;margin-bottom:5px;">
+                        <label style="display:table-cell;">Project:</label>
+                        <select class="form-control" id="snippetImportModalProjects" style="display:table-cell;" disabled="disabled">
+                            <option value="init" selected="selected" disabled="disabled">Elegir de un proyecto disponible</option>
+                        </select>
+                    </div>
+                    <div style="display:table-row;">
+                        <label style="display:table-cell;">Snippet</label>
+                        <select class="form-control" id="snippetImportModalSnippets" style="display:table-cell;" disabled="disabled">
+                            <option value="init" selected="selected" disabled="disabled">Elegir de un Snippet disponible</option>
+                        </select>
+                    </div>
+                </div>
+                <p class="snippet-import-or">O</p>
+                <input type="url" class="form-control" placeholder="/projects/:id/snippets/:snippet_id" id="snippetImportModalContent" disabled="disabled">
+            </div>
+            <div class="modal-footer">
+                <span id="snippetImportModalLoading"><i class="fa fa-refresh fa-spin fa-fw"></i></span>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger" id="snippetImportModalClear">Limpiar</button>
+                <button type="button" class="btn btn-primary" id="snippetImportModalConfirm" disabled="disabled">Importar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- snippet export modal -->
+<div class="modal fade" id="snippetExportModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Exportar a Snippet</h4>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="snippetExportModalAccessToken">
+                <input type="hidden" id="snippetExportModalBaseURL">
+                <input type="hidden" id="snippetExportModalVersion">
+                <div class="ui-field-contain" style="display:table;margin-bottom:10px;width:100%;">
+                    <div style="display:table-row;margin-bottom:5px;">
+                        <label style="display:table-cell;">Title:</label>
+                        <input class="form-control" placeholder="new snippet" type="text" id="snippetExportModalTitle">
+                    </div>
+                    <div style="display:table-row;margin-bottom:5px;">
+                        <label style="display:table-cell;">File Name:</label>
+                        <input class="form-control" placeholder="new_snippet.md" type="text" id="snippetExportModalFileName">
+                    </div>
+                    <div style="display:table-row;margin-bottom:5px;">
+                        <label style="display:table-cell;">Project:</label>
+                        <select class="form-control" id="snippetExportModalProjects" style="display:table-cell;">
+                            <option value="init" selected="selected" disabled="disabled">Elegir de un proyecto disponible</option>
+                        </select>
+                    </div>
+                    <div style="display:table-row;margin-bottom:5px;">
+                        <label style="display:table-cell;">Visibility:</label>
+                        <select class="form-control" id="snippetExportModalVisibility" style="display:table-cell;">
+                            <option value="" selected="selected" disabled="disabled">Elegir el nivel de visibilidad</option>
+                            <option value="0">Private</option>
+                            <option value="10">Internal</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <span id="snippetExportModalLoading"><i class="fa fa-refresh fa-spin fa-fw"></i></span>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="snippetExportModalConfirm">Exportar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- delete modal -->
+<div class="modal fade delete-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">¿Lo confirmas?</h4>
+            </div>
+            <div class="modal-body">
+                <h5 class="ui-delete-modal-msg">¿Realmente quieres eliminar esta nota?</h5>
+                <strong class="ui-delete-modal-item">Todas las personas perderán su conexión.</strong>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger ui-delete-modal-confirm">Si, ¡hazlo!</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- refresh modal -->
+<div class="modal fade" id="refreshModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Esta página necesita ser cargada de nuevo</h4>
+            </div>
+            <div class="modal-body">
+                <div class="incompatible-version">
+                    <h5>Tienes una versión incompatible del cliente.</h5>
+                    <strong>Cargar de nuevo para actualizar.</strong>
+                </div>
+                <div class="new-version" style="display:none;">
+                    <h5>¡Nueva versión disponible!</h5>
+                    <a href="https://notes.commonscomputer.com/s/release-notes" target="_blank" rel="noopener">Ver aquí las notas de cada versión</a>
+                    <br>
+                    <strong>Actualizar para usar las nuevas funciones.</strong>
+                </div>
+                <div class="user-state-changed" style="display:none;">
+                    <h5>El estado de tu perfil ha cambiado.</h5>
+                    <strong>Recargar para actualizar el estado de tu perfil.</strong>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="refreshModalRefresh">Recargar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- signin modal -->
+<div class="modal fade signin-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="mySmallModalLabel">Elegir método</h4>
+            </div>
+            <div class="modal-body" style="text-align: center;">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://notes.commonscomputer.com/auth/oauth2" class="btn btn-lg btn-block btn-social btn-soundcloud">
+                    <i class="fa fa-mail-forward"></i> Ingresar vía Commons Computer Cloudron
+                </a>
+                
+                
+                
+                
+                
+                
+                <hr>
+                
+                
+                <h4>Ingresar vía E-Mail</h4>
+                <form data-toggle="validator" role="form" class="form-horizontal" method="post" enctype="application/x-www-form-urlencoded" novalidate="true">
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" name="email" placeholder="E-Mail" required="">
+                            <span class="help-block control-label with-errors" style="display: inline;"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="password" class="form-control" name="password" placeholder="Password" required="">
+                            <span class="help-block control-label with-errors" style="display: inline;"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-primary disabled" formaction="https://notes.commonscomputer.com/login">Ingresar</button>
+                            <button type="submit" class="btn btn-default disabled" formaction="https://notes.commonscomputer.com/register">Registrar</button>
+                        </div>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- help modal -->
+<div class="modal fade help-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="mySmallModalLabel"><i class="fa fa-question-circle"></i> Ayuda</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Contactos</h3>
+                            </div>
+                            <div class="panel-body">
+                                <a href="https://community.hedgedoc.org/" target="_blank"><i class="fa fa-users fa-fw"></i> Únete a la comunidad</a>
+                                <br>
+                                <a href="https://chat.hedgedoc.org/" target="_blank"><i class="fa fa-hashtag fa-fw"></i> Encuéntranos en Matrix</a>
+                                <br>
+                                <a href="https://github.com/hedgedoc/hedgedoc/issues" target="_blank"><i class="fa fa-tag fa-fw"></i> Reportar un problema</a>
+                                <br>
+                                <a href="https://translate.hedgedoc.org/" target="_blank"><i class="fa fa-language fa-fw"></i> Ayúdanos con la traducción</a>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Documentos</h3>
+                            </div>
+                            <div class="panel-body">
+                                <a href="https://notes.commonscomputer.com/features" title="Features" target="_blank"><i class="fa fa-dot-circle-o fa-fw"></i> Características</a>
+                                <br>
+                                <a href="https://notes.commonscomputer.com/yaml-metadata" title="YAML Metadata" target="_blank"><i class="fa fa-dot-circle-o fa-fw"></i> Metadatos YAML</a>
+                                <br>
+                                <a href="https://notes.commonscomputer.com/slide-example" title="Slide Example" target="_blank"><i class="fa fa-dot-circle-o fa-fw"></i> Ejemplo de diapositiva</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Acordeón</h3>
+                            </div>
+                            <div class="panel-body" style="height: calc(100vh - 215px); overflow: auto;">
+                                <table class="table table-condensed table-cheatsheet">
+                                    <thead>
+                                        <tr>
+                                            <th>Ejemplo</th>
+                                            <th>Sintaxis</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="markdown-body" style="font-family: inherit; font-size: 14px; padding: 0; max-width: inherit;">
+                                        <tr>
+                                            <td>Encabezado</td>
+                                            <td># Encabezado</td>
+                                        </tr>
+                                        <tr>
+                                            <td><ul><li>Lista desordenada</li></ul></td>
+                                            <td>- Lista desordenada</td>
+                                        </tr>
+                                        <tr>
+                                            <td><ol><li>Lista ordenada</li></ol></td>
+                                            <td>1. Lista ordenada</td>
+                                        </tr>
+                                        <tr>
+                                            <td><ul><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""><label></label>Lista de tareas</li></ul></td>
+                                            <td>- [ ] Lista de tareas</td>
+                                        </tr>
+                                        <tr>
+                                            <td><blockquote> Bloque de cita</blockquote></td>
+                                            <td>&gt; Bloque de cita</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Negrita</strong></td>
+                                            <td>**Negrita**</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i>Itálica</i></td>
+                                            <td>*Itálica*</td>
+                                        </tr>
+                                        <tr>
+                                            <td><s>Tachado</s></td>
+                                            <td>~~Tachado~~</td>
+                                        </tr>
+                                        <tr>
+                                            <td>19<sup>th</sup></td>
+                                            <td>19^th^</td>
+                                        </tr>
+                                        <tr>
+                                            <td>H<sub>2</sub>O</td>
+                                            <td>H~2~O</td>
+                                        </tr>
+                                        <tr>
+                                            <td><ins>Texto subrayado</ins></td>
+                                            <td>++Texto subrayado++</td>
+                                        </tr>
+                                        <tr>
+                                            <td><mark>Texto resaltado</mark></td>
+                                            <td>==Texto resaltado==</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a>Enlace</a></td>
+                                            <td>[link text](https:// "title")</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Imagen</td>
+                                            <td>![image alt](https:// "title")</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>Código</code></td>
+                                            <td>`Código`</td>
+                                        </tr>
+                                        <tr>
+                                            <td><pre style="border:none !important;"><code class="javascript hljs"><div class="wrapper"><div class="gutter linenumber"><span data-linenumber="1"></span></div><div class="code"><span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>;
+</div></div></code></pre></td>
+                                            <td>```javascript<br>var i = 0;<br>```</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img align="absmiddle" alt=":smile:" class="emoji" src="./Publicar una página web en github - HedgeDoc_files/smile.png" title=":smile:"></td>
+                                            <td>:smile:</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Externos</td>
+                                            <td>{%youtube youtube_id %}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>L<sup>a</sup>T<sub>e</sub>X</td>
+                                            <td>$L^aT_eX$</td>
+                                        </tr>
+                                        <tr>
+                                            <td><div class="alert alert-info"><p>Esto es un área de alerta.</p></div></td>
+                                            <td>:::info<br>Esto es un área de alerta.<br>:::</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    table.table-cheatsheet tr > td:nth-child(2) {
+        font-family: "Source Code Pro", Consolas, monaco, monospace;
+        letter-spacing: 0.025em;
+        line-height: 1.25;
+    }
+</style>
+
+<!-- revision modal -->
+<div class="modal fade" id="revisionModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="mySmallModalLabel"><i class="fa fa-history"></i> Revisión</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-4" style="max-height: calc(100vh - 215px); overflow: auto;">
+                        <div class="list-group ui-revision-list"></div>
+                    </div>
+                    <div class="col-lg-8" style="height: calc(100vh - 215px); overflow: hidden;">
+                        <textarea id="revisionViewer" style="display:none;"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="revisionModalDownload">Descargar</button>
+                <button type="button" class="btn btn-danger" id="revisionModalRevert">Revertir</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="./Publicar una página web en github - HedgeDoc_files/mathjax-config-extra.js.descarga"></script>
+<script src="./Publicar una página web en github - HedgeDoc_files/MathJax.js.descarga" defer=""></script>
+<script src="./Publicar una página web en github - HedgeDoc_files/TeX-AMS-MML_HTMLorMML.js.descarga" defer=""></script>
+<script src="./Publicar una página web en github - HedgeDoc_files/Safe.js.descarga" defer=""></script>
+<script src="./Publicar una página web en github - HedgeDoc_files/config"></script><script src="./Publicar una página web en github - HedgeDoc_files/vendors~common.416b1eda8a25bde937d8.js.descarga" defer="defer"></script><script src="./Publicar una página web en github - HedgeDoc_files/common.7571c5f3816940134570.js.descarga" defer="defer"></script><script src="./Publicar una página web en github - HedgeDoc_files/vendors~cover~cover-pack~index~index-pack~pretty~pretty-pack~slide~slide-pack.f63651c51059baff7257.js.descarga" defer="defer"></script><script src="./Publicar una página web en github - HedgeDoc_files/vendors~index~index-pack~pretty~pretty-pack~slide~slide-pack.ee48259a734d6fa119fa.js.descarga" defer="defer"></script><script src="./Publicar una página web en github - HedgeDoc_files/index-pack.9f960b129a696253b872.js.descarga" defer="defer"></script>
+
+
+
+
+</body></html>
